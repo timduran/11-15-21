@@ -48,7 +48,7 @@ const newGame = () => {
   const index = Math.floor(Math.random() * games.length)
   chosenGame = games[index]
   games.splice(index, 1)
-  console.log(chosenGame)
+  // console.log(chosenGame)
   isGameStarted = true
   document.getElementById('start').style.display = 'none'
   document.getElementById('newRoundInfo').style.display = 'none'
